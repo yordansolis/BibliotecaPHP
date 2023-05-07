@@ -1,0 +1,149 @@
+/*login*/
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: white;
+    background-color:  #6f42c1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    
+}
+.responsive{
+  display: flex;
+   justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 2.40rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.225rem;
+    text-align: center;
+  }
+  h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+  }
+  
+input, button, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.contenedor{
+  background-color: #495057;
+}
+  
+  .container {
+    margin: 3.125rem auto 0 auto;
+  }
+/* Medidas entro de un documento */
+  @media (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  }
+  
+
+
+  .contenedor{
+    max-width: 800px;
+    min-width: 400px;
+    /*margin 0  auto para centrarlo*/
+    margin: 0 auto;
+    padding-bottom: 0.2em;
+    border-radius: 0.25rem;    
+
+  }
+  fieldset{
+    border: none;
+    
+  }
+  
+  label,input{
+    display: block;
+  }
+  input{
+    display: block;
+    width: 100%;
+    padding:0.372rem ;
+    color:#495957;
+   background-color: #fff;
+   border:2px solid #ced4da;
+   }
+
+   /* segunda parte 
+   label secction
+   */
+   label, select{
+    display: block;
+    margin-bottom: 10px;
+   }
+  select{
+    width: 102%;
+    padding:0.372rem ;
+    color:#495057
+   }
+ 
+   .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+.btn{
+display:block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+   .btn {
+  border-radius: 4px;
+  background-color: rgba(58, 58, 158, 0.8);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+
+.btn  {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+.btn :after {
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover  {
+  padding-right: 25px;
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+.btn:hover:after {
+  opacity: 1;
+  right: 0;
+}
+
+  
+
+

@@ -1,0 +1,13 @@
+
+Administrador:
+yordan2
+password:
+11111
+
+
+----------------
+paciente: 
+
+josemurillo 
+password:
+jose123
